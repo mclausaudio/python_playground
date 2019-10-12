@@ -1,5 +1,5 @@
 def anti_cheat():
-    print('* * * NO CHEATING * * * \n' * 20)
+    print('* * * NO CHEATING * * * \n \n' * 10)
     # for i in range(1, 10):
     #     print('* * * NO CHEATING * * * ')
     #     print('* * * * * * * * * * * * ')
