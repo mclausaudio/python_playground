@@ -37,3 +37,8 @@ print(fish3 is fish2)  # False
 newUser = {}.fromkeys(["name", "score", "email"], None)
 # commonly used for creating default values
 print(newUser)
+# .pop(argument) takes a single argument and removes the kay/value pair that matches the argument
+# important to note: it returns the value of the removed key
+removed_value = newUser.pop('score')
+print(f"The removed value of 'score' is {removed_value}")
+print(newUser)
